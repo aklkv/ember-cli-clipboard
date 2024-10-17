@@ -6,9 +6,16 @@
 
 A simple ember wrapper around [clipboard.js](http://zenorocha.github.io/clipboard.js/) (no flash)
 
-## Demo Page
+## Compatibility
 
-http://jkusa.github.io/ember-cli-clipboard
+- Ember.js v4.12 or above
+- Embroider or ember-auto-import v2
+
+## Installation
+
+```shell
+ember install ember-cli-clipboard
+```
 
 ## Usage
 
@@ -185,11 +192,11 @@ test('copy-button integration', async function (assert) {
 
 For browser support information, checkout the [clipboard.js](http://zenorocha.github.io/clipboard.js/) documentation:
 
-https://github.com/zenorocha/clipboard.js/#browser-support
+<https://github.com/zenorocha/clipboard.js/#browser-support>
 
 ## Contributing
 
-Contributions are welcomed. Please read the [contributing guidelines](CONTRIBUTING.md).
+See the [Contributing](CONTRIBUTING.md) guide for details.
 
 ## License
 
